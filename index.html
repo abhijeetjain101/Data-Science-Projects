@@ -2,8 +2,15 @@
 <html>
 <h2>"CatPhotoApp"</h2>
 <style>
-  h2{
-    color:blue;
+  .silver-background {
+    background-color:silver;
+  }
+  .red-text {
+    color: red;
+  }
+  
+  h2 {
+    font-family: Lobster, monospace;
   }
 </style>
 
@@ -31,7 +38,7 @@ business cat wearing a necktie.">
   </ol>
 </div>
 
-<form action ="https://freecatphotoapp.com/submit-cat-photo">
+<form id="cat-photo-form" action ="https://freecatphotoapp.com/submit-cat-photo">
 <input type = "text" placeholder = "cat photo URL" required>
 <button type = "Submit">Submit</button>
  <label for="indoor"><input id="indoor" value = "indoor" type="radio" name="indoor-outdoor" checked> Indoor</label>
